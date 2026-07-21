@@ -40,12 +40,6 @@ export interface Testimonial {
   rating: number;
 }
 
-export interface PricingRow {
-  service: string;
-  price: string;
-  note?: string;
-}
-
 // ============================================================
 // DATOS DEL NEGOCIO
 // ============================================================
@@ -664,22 +658,6 @@ export const site = {
       image: { src: '/images/cubiertas-industriales-vitoria.jpg', alt: 'Cubierta industrial de panel sándwich en nave en Vitoria-Gasteiz', width: 800, height: 534 },
     },
   ] as ServiceConfig[],
-
-  // ============================================================
-  // PRECIOS ORIENTATIVOS
-  // ============================================================
-  pricing: [
-    { service: 'Reparación puntual de gotera', price: 'desde 80 €' },
-    { service: 'Reparación de tejado (zona parcial)', price: '300 – 800 €' },
-    { service: 'Retejado completo', price: '35 – 65 €/m²' },
-    { service: 'Impermeabilización de cubierta', price: '25 – 50 €/m²' },
-    { service: 'Instalación de canalones', price: '15 – 35 €/ml' },
-    { service: 'Instalación claraboya / Velux', price: '400 – 1.200 €' },
-    { service: 'Aislamiento de cubierta', price: '30 – 60 €/m²' },
-    { service: 'Limpieza de tejado', price: '8 – 20 €/m²' },
-    { service: 'Panel sándwich (cubierta industrial)', price: '45 – 80 €/m²' },
-    { service: 'Tejado nuevo (obra nueva)', price: '80 – 150 €/m²' },
-  ] as PricingRow[],
 
   // ============================================================
   // ZONAS DE TRABAJO

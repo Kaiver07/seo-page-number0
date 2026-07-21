@@ -2,7 +2,6 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import ServiceCard from '../components/ServiceCard.astro';
 import ContactForm from '../components/ContactForm.astro';
-import PriceTable from '../components/PriceTable.astro';
 import Testimonials from '../components/Testimonials.astro';
 import ZonesList from '../components/ZonesList.astro';
 import { site } from '../config/site.config';
@@ -222,23 +221,6 @@ import { site } from '../config/site.config';
     </div>
   </section>
 
-  <!-- ======================== PRECIOS ======================== -->
-  <section id="precios" class="section-padding bg-white">
-    <div class="section-container">
-      <div class="text-center mb-8">
-        <h2 class="text-2xl lg:text-3xl font-bold text-brand-primary mb-3">
-          Precios Orientativos de Reparación de Tejados en Vitoria
-        </h2>
-        <p class="text-gray-600 max-w-2xl mx-auto">
-          Precios sin IVA para orientarte antes de pedir presupuesto. El precio final siempre se confirma tras la visita gratuita al inmueble.
-        </p>
-      </div>
-      <div class="max-w-2xl mx-auto">
-        <PriceTable />
-      </div>
-    </div>
-  </section>
-
   <!-- ======================== ZONAS ======================== -->
   <section class="section-padding bg-gray-50">
     <div class="section-container">
@@ -272,12 +254,13 @@ import { site } from '../config/site.config';
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 gap-3 lg:gap-4">
         {[
-          { src: '/images/reparacion-tejados-vitoria.jpg', alt: 'Reparación de tejado en Vitoria-Gasteiz' },
-          { src: '/images/instalacion-tejados-nuevos-vitoria.jpg', alt: 'Instalación de tejado nuevo en Álava' },
-          { src: '/images/impermeabilizacion-cubiertas-vitoria.jpg', alt: 'Impermeabilización de cubierta plana en Vitoria' },
-          { src: '/images/retejado-vitoria.jpg', alt: 'Retejado completo con teja cerámica en Vitoria-Gasteiz' },
-          { src: '/images/rehabilitacion-fachadas-vitoria.jpg', alt: 'Rehabilitación de fachada en Vitoria' },
-          { src: '/images/cubiertas-industriales-vitoria.jpg', alt: 'Cubierta industrial en nave de Álava' },
+          { src: '/images/trabajos/instalacion-tejado-nuevo-01.jpg', alt: 'Instalación de tejado nuevo con teja cerámica' },
+          { src: '/images/trabajos/impermeabilizacion-cubierta-plana-01.jpg', alt: 'Impermeabilización de cubierta plana' },
+          { src: '/images/trabajos/instalacion-canalon-01.jpg', alt: 'Instalación de canalón de aluminio' },
+          { src: '/images/trabajos/instalacion-claraboya-velux-01.jpg', alt: 'Instalación de claraboya tipo Velux' },
+          { src: '/images/trabajos/rehabilitacion-fachada-antes-despues-01.jpg', alt: 'Rehabilitación de fachada, antes y después' },
+          { src: '/images/trabajos/cubierta-panel-sandwich-01.jpg', alt: 'Instalación de cubierta con panel sándwich' },
+          { src: '/images/trabajos/cubierta-industrial-nave-01.jpg', alt: 'Cubierta industrial en nave' },
         ].map((img) => (
           <div class="overflow-hidden rounded-xl aspect-video bg-gray-200">
             <img
