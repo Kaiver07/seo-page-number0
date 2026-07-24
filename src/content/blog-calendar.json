@@ -268,8 +268,8 @@
   },
   {
     "slug": "cuanto-cuesta-instalar-un-tejado-nuevo",
-    "title": "Cuánto cuesta instalar un tejado nuevo: precios orientativos por m²",
-    "description": "Rangos de precio orientativos para instalar un tejado nuevo completo en Vitoria-Gasteiz según el material y la superficie, y qué factores mueven el presupuesto.",
+    "title": "Instalar un tejado nuevo: qué mueve el precio dentro del rango orientativo",
+    "description": "Por qué el precio de instalar un tejado nuevo varía tanto según el material, el estado de la estructura y el acceso, con ejemplos de cada factor.",
     "image": {
       "src": "/images/instalacion-tejados-nuevos-vitoria.webp",
       "alt": "Instalación de un tejado nuevo completo con teja cerámica",
@@ -279,7 +279,7 @@
     "relatedServices": [
       "instalacion-de-tejados-nuevos"
     ],
-    "brief": "Dar rangos de precio orientativos por metro cuadrado para instalar un tejado nuevo completo (no una reparación), diferenciando: teja cerámica curva sobre estructura ya existente en buen estado, teja de hormigón (más económica), y el sobrecoste que supone si hay que rehacer también el rastrelado o la estructura de madera. Dejar claro que son rangos amplios orientativos (por ejemplo, entre X y X €/m² sin dar cifras que no se puedan sostener; usar rangos razonables tipo '40-90 €/m² solo material y colocación de teja sobre estructura existente sana' y explicar que un tejado completo con estructura nueva puede multiplicar ese coste varias veces). Explicar que el precio final depende de la accesibilidad, la pendiente, si hace falta andamio y el estado de la estructura, y que solo un presupuesto tras inspección da una cifra fiable. 600-800 palabras, con H2. No incluyas enlaces internos ni markdown de enlaces.",
+    "brief": "IMPORTANTE: la página de servicio de instalación de tejados nuevos ya tiene una FAQ que da el rango orientativo de 80 a 150 €/m² para una instalación completa. Este artículo NO debe repetir esa pregunta ni dar un rango distinto (usa siempre esos mismos 80-150 €/m² si mencionas cifras, nunca otro rango). En su lugar, el ángulo de este artículo es explicar CON DETALLE por qué el precio varía tanto dentro de ese rango: qué hace que un proyecto quede en la parte baja (80-100 €/m²: estructura existente sana, teja de hormigón, acceso fácil, tejado sencillo a dos aguas) frente a la parte alta (130-150 €/m²: teja cerámica de gama alta o pizarra, tejados con muchos faldones o limahoyas, necesidad de andamio); y explicar que si además hay que rehacer toda la estructura de madera, el proyecto sale de ese rango (ya no es solo instalación de cubierta, es una obra mayor) y ahí sí hace falta inspección para dar cifra. 600-800 palabras, con H2. No incluyas enlaces internos ni markdown de enlaces.",
     "status": "pending"
   },
   {
@@ -419,8 +419,8 @@
   },
   {
     "slug": "cuanto-se-tarda-en-instalar-un-tejado-nuevo",
-    "title": "Cuánto se tarda en instalar un tejado nuevo completo",
-    "description": "Plazos orientativos para instalar un tejado nuevo completo según su tamaño y complejidad, y qué factores pueden alargar la obra.",
+    "title": "Cuánto se tarda en instalar un tejado nuevo: por qué unas obras duran el doble que otras",
+    "description": "Plazos reales de instalación de un tejado nuevo y por qué el mismo tipo de obra puede tardar el doble en una vivienda que en otra.",
     "image": {
       "src": "/images/instalacion-tejados-nuevos-vitoria.webp",
       "alt": "Obra de instalación de un tejado nuevo en curso",
@@ -430,7 +430,7 @@
     "relatedServices": [
       "instalacion-de-tejados-nuevos"
     ],
-    "brief": "Dar plazos orientativos para instalar un tejado nuevo completo: una vivienda unifamiliar de tamaño medio con estructura ya sana puede llevar entre 1 y 2 semanas de obra; si hay que rehacer también la estructura de madera o el rastrelado, el plazo puede duplicarse; cubiertas grandes o de comunidades de varias alturas pueden requerir varias semanas por la logística de andamios y acopio de material. Explicar los factores que pueden alargar el plazo: climatología adversa (no se puede trabajar con lluvia fuerte o viento intenso en tejados inclinados), sorpresas al levantar la cubierta antigua (madera en peor estado del esperado), disponibilidad del material concreto elegido. Recomendar pedir siempre un plazo estimado por escrito junto al presupuesto, sabiendo que puede variar unos días por causas de fuerza mayor como el tiempo. 500-700 palabras, con H2. No incluyas enlaces internos ni markdown de enlaces.",
+    "brief": "IMPORTANTE: la página de servicio de instalación de tejados nuevos ya tiene una FAQ que dice que una vivienda unifamiliar estándar de 150 a 200 m² se instala en 5 a 8 días hábiles una vez iniciada la obra. Este artículo NO debe repetir esa pregunta con otro dato distinto (usa siempre esos mismos 5-8 días hábiles como referencia para una vivienda estándar, nunca otra cifra). En su lugar, el ángulo de este artículo es explicar en detalle POR QUÉ hay proyectos que se quedan en esos 5-8 días y otros que se alargan mucho más: rehacer la estructura de madera o el rastrelado (puede duplicar el plazo), cubiertas grandes o de comunidades de varias alturas con logística de andamios, climatología adversa que impide trabajar con lluvia fuerte o viento en tejados inclinados, sorpresas al levantar la cubierta antigua, disponibilidad del material elegido. Recomendar pedir siempre el plazo estimado por escrito junto al presupuesto. 500-700 palabras, con H2. No incluyas enlaces internos ni markdown de enlaces.",
     "status": "pending"
   }
 ]
