@@ -3,7 +3,6 @@ import { getCollection } from 'astro:content';
 import PageLayout from '../layouts/PageLayout.astro';
 import ServiceCard from '../components/ServiceCard.astro';
 import ContactForm from '../components/ContactForm.astro';
-import Testimonials from '../components/Testimonials.astro';
 import ZonesList from '../components/ZonesList.astro';
 import BlogCard from '../components/BlogCard.astro';
 import { site } from '../config/site.config';
@@ -313,19 +312,6 @@ const latestPosts = (await getCollection('blog', ({ data }) => !data.draft))
         ))}
       </div>
       <p class="text-center text-sm text-gray-400 mt-3 md:hidden">← Desliza para ver más →</p>
-    </div>
-  </section>
-
-  <!-- ======================== TESTIMONIOS ======================== -->
-  <section class="section-padding bg-white">
-    <div class="section-container">
-      <div class="text-center mb-8">
-        <h2 class="text-2xl lg:text-3xl font-bold text-brand-primary mb-3">
-          Lo Que Dicen Nuestros Clientes
-        </h2>
-        <p class="text-gray-600">Opiniones reales de clientes en Vitoria-Gasteiz y la comarca de Álava.</p>
-      </div>
-      <Testimonials />
     </div>
   </section>
 

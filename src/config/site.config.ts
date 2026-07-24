@@ -34,13 +34,6 @@ export interface Zone {
   localInfo: string;
 }
 
-export interface Testimonial {
-  name: string;
-  location: string;
-  text: string;
-  rating: number;
-}
-
 // ============================================================
 // DATOS DEL NEGOCIO
 // ============================================================
@@ -810,34 +803,4 @@ export const site = {
         'En la ribera del Ebro, Berantevilla tiene un clima más seco y caluroso en verano que el resto de Álava, propio de la transición hacia La Rioja, con construcciones tradicionales de piedra que acumulan menos humedad pero sufren más las dilataciones térmicas del tejado por el contraste de temperaturas entre el día y la noche.',
     },
   ] as Zone[],
-
-  // ============================================================
-  // TESTIMONIOS
-  // ============================================================
-  testimonials: [
-    {
-      name: 'Carlos M.',
-      location: 'Vitoria-Gasteiz',
-      text: 'Llevábamos dos inviernos viendo una mancha de humedad crecer en el techo del salón. Tejados Vitoria Express vinieron al día siguiente, diagnosticaron tres tejas desplazadas en la cumbrera, y en una mañana lo tuvieron resuelto. Precio justo y sin sorpresas. Totalmente recomendables.',
-      rating: 5,
-    },
-    {
-      name: 'Amaia G.',
-      location: 'Iruña de Oca',
-      text: 'Necesitaba cambiar todo el tejado de una casa de pueblo que acabamos de comprar. Me hicieron un presupuesto detallado en 48 horas, con varias opciones de teja. El trabajo duró seis días y el resultado es impecable. Destaco la limpieza de obra y que recogieron absolutamente todos los escombros.',
-      rating: 5,
-    },
-    {
-      name: 'Roberto P.',
-      location: 'Vitoria-Gasteiz, Casco Viejo',
-      text: 'Gotera urgente un sábado por la tarde, con la tormenta encima. Llamé y en menos de dos horas tenía a alguien revisando el tejado. Eso no lo hace cualquier empresa. Luego presupuestaron el arreglo definitivo para la semana siguiente y quedé muy satisfecho con el resultado.',
-      rating: 5,
-    },
-    {
-      name: 'Miren A.',
-      location: 'Salvatierra (Agurain)',
-      text: 'Impermeabilizaron la cubierta plana de mi local comercial. Trabajo limpio, en plazo y la garantía que dieron por escrito me dio mucha tranquilidad. Ya van dos temporadas de lluvia y ni una gota. 100% recomendado para cualquier trabajo de cubierta en la comarca.',
-      rating: 5,
-    },
-  ] as Testimonial[],
 };
